@@ -1,5 +1,15 @@
 {
     "presets":[
         "@babel/preset-env"
+    ],
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "@models": "./src/app/models"
+        }
+      }]
+    ],
+    "ignore": [
+      "**/*.spec.ts"
     ]
 }
