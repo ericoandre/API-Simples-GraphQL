@@ -1,3 +1,3 @@
 test('it should be ok', () => {
-    expect('Diego').toEqual('Diego')
+    expect('Teste').toEqual('Teste')
 })
