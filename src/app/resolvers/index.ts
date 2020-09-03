@@ -2,8 +2,8 @@ import { GraphQLObjectType, GraphQLString,GraphQLSchema, GraphQLInt,GraphQLList 
 
 // Maps id to User object
 const fakeDatabase = [
-    {"id": 1,"name": 'alice',},
-    {"id": 2,"name": 'bob',},
+    {"id": 1,"name": 'Maria'},
+    {"id": 2,"name": 'Joao'},
 ];
 
 // Define the User type
